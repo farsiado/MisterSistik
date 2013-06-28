@@ -1,0 +1,8 @@
+[Dolphin]
+HeaderColumnWidths=214,64,126,72,150,60
+PreviewsShown=true
+SortOrder=1
+SortRole=rating
+Timestamp=2013,6,14,19,34,37
+Version=3
+VisibleRoles=Details_text,Details_rating,Details_tags,Details_comment,Details_size,Details_date,CustomizedDetails
