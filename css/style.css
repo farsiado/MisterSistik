@@ -216,7 +216,7 @@ ul{
 }
 #tinynav1{
 	width: 400px;
-	margin: 10px auto;
+	margin: 7px auto;
 	height: 33px;
 	display: none;	
 }
@@ -670,6 +670,8 @@ li.linkedin a{
 	 color: #444;
    font-family: Static_Bold_Italic;
 }
+
+
 /**** Media queries ****/
 @media only screen and (max-width: 940px) {
 	.container{
