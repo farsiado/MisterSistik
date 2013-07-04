@@ -98,7 +98,7 @@ ul{
 .flexslider{
 	background-color: transparent;
 	border: none;
-	margin-top: 20px;
+	margin-top: 14px;
 }
 #slide-1{
 	padding-bottom: 20px;
@@ -153,8 +153,8 @@ ul{
 }
 .app-content{
 	float: left;
-	width: 55%;
-	padding-left: 60px;
+/* 	width: 55%; */
+/* 	padding-left: 60px; */
 }
 #slide-2 p{
 	font-size: 15px;
@@ -714,7 +714,7 @@ li.linkedin a{
 }
 @media only screen and (max-width: 768px){
 	.flexslider {
-	    margin-top: 20px;
+	    margin-top: 14px;
 	}
 /* 	.gallery-item{ */
 /* 		margin-right: 12%; */
