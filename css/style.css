@@ -240,6 +240,10 @@ ul{
 	color: #444;
 	font-family: 'Lobster', cursive;
 }
+.produkLi li{
+	width: 100%!important;
+	margin:0;
+}
 .services li h3 a{
 	color: #444;
 }
