@@ -42,7 +42,7 @@ ul{
 	text-align: center;
 	font-size: 32px;
 	padding-bottom: 14px;
-	border-bottom: 3px dotted #555;
+	border-bottom: 3px dashed #555;
 	width: 100%;
 	font-family: 'Lobster', cursive;
 	padding-top: 45px;
@@ -84,16 +84,24 @@ ul{
 }
 #head-section{
 /* 	background: url('../img/2.jpg') fixed; */
-	background:#E8DDCA;
 	background-size: cover;
 	position: relative;
-	z-index: 10000;
+/* 	z-index: 10000; */
 	background-color: 
 }
 #head-section .container{
 	height: 410px;
 	position: relative;
 	z-index: 3;
+}
+#head-sections{
+	background-color: #E8DDCA;
+}
+#head-sections .container{
+    height: auto;
+    margin: 0 auto;
+    padding: 17px 0;
+    text-align: center;
 }
 .flexslider{
 	background-color: transparent;
@@ -188,7 +196,7 @@ ul{
 	height: 45px;
 }
 #navigation ul{
-	width: 48%;
+	width: 46%;
 	margin: 0 auto;
 }
 #navigation #menu li{
@@ -474,7 +482,7 @@ ul#filterOptions li.active a { background: #ed0c4c;
 .contact{
 /* 	background-color: #EBBF34; */
 	padding-bottom: 50px;
-	padding-top: 47px;
+/* 	padding-top: 47px; */
 	position: relative;
 	z-index: 9;
 }
@@ -697,7 +705,7 @@ li.linkedin a{
 	
 	#navigation ul {
 	    margin: 0 auto;
-	    width: 57%;
+	    width: 56%;
 	}
 	
 	.services li {
@@ -716,6 +724,19 @@ li.linkedin a{
 	    margin-right: 1%;
 	}
 }
+
+.logo a > img:HOVER{
+	opacity:1;
+}
+
+.logo a > img{
+	opacity:0.94;
+}
+
+.logo a{
+	text-align: center;
+}
+
 @media only screen and (max-width: 768px){
 	.flexslider {
 	    margin-top: 14px;
@@ -813,7 +834,7 @@ li.linkedin a{
 	}
 	
 	#head-section .container{
-		 height: 270px;
+		 height: 150px;
 	}
 	
 /* 	#slide-2{ */
@@ -823,4 +844,5 @@ li.linkedin a{
 /* 	#slide-3{ */
 /* 		display: none !important; */
 /* 	} */
+
 }
