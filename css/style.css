@@ -53,8 +53,8 @@ ul{
 	color: #f4f4f4;
 }
 .titles-white-c{
-	color: #444444;
-/* 	border-color: #f4f4f4; */
+ 	border-color: #F4F4F4;
+    color: #F4F4F4;
 }
 /**** Typography ****/
 @font-face {
@@ -66,9 +66,6 @@ ul{
 	src: url("../fonts/OpenSans_Regular.ttf") format("truetype");
 }
 /**** Head-Section ****/
-#head-section{
-
-}
 #main-title{
 	text-align: center;
 	margin-top: 50px;
@@ -95,7 +92,7 @@ ul{
 	z-index: 3;
 }
 #head-sections{
-	background-color: #E8DDCA;
+	background-color: #C63031;
 }
 #head-sections .container{
     height: auto;
@@ -187,8 +184,8 @@ ul{
 	position: relative;
 	width: 100%;
 /* 	background-color: rgba(56,53,53,0.95); */
-	background-color:#c63031;
-	box-shadow: 0px 1px 10px #999;
+  	background-color: #E3D8C5;
+    box-shadow: 0 1px 10px #9D9D9D;
 	-webkit-box-shadow: 0px 1px 10px #222;
 	-moz-box-shadow: 0px 1px 10px #222;
 	-o-box-shadow: 0px 1px 10px #222;
@@ -203,13 +200,13 @@ ul{
 	float: left;
 	text-align: center;
 	font-size: 16px;
-	border-right: 1px solid #999;
+/* 	border-right: 1px solid #999; */
 }
 #navigation #menu li:last-child{
 	border-right: none;
 }
 #navigation #menu li a{
-	color: #eee;
+	color: #D64041;
 	line-height: 45px;
 	padding-right: 25px;
 	padding-left: 25px;
@@ -217,7 +214,7 @@ ul{
 	font-size:20px; 
 }
 #navigation #menu li a:hover{
-	color: #C2B9AA;
+	text-decoration: underline;
 }
 #tinynav{
 	display: none;	
@@ -261,8 +258,8 @@ ul{
 /**** Works Section ****/
 .works-wrapper{
 	margin-top: 70px;
-/* 	background-color: #1c2224; */
-/* 	 padding-bottom: 107px; */
+	background-color: #1c2224;
+	 padding-bottom: 107px;
 }
 #works-desc{
 	color: #f4f4f4;
@@ -477,7 +474,7 @@ ul#filterOptions li.active a { background: #ed0c4c;
 }
 /**** Contact Section ****/
 .contact{
-/* 	background-color: #EBBF34; */
+	background-color: #EBBF34;
 	padding-bottom: 50px;
 /* 	padding-top: 47px; */
 	position: relative;
@@ -489,6 +486,7 @@ ul#filterOptions li.active a { background: #ed0c4c;
 	margin-right: 2%;
 	margin-top: 40px;
 	text-align: center;
+	color: #fff;
 }
 .contact-form-holder{
 	width:50%;
@@ -500,7 +498,7 @@ ul#filterOptions li.active a { background: #ed0c4c;
 	font-family: opensans_regular;
 }
 .contact-desc p{
-/* 	color: #eee; */
+	color: #fff;
 }
 form{
 	margin: 0 !important;
@@ -601,7 +599,7 @@ textarea:-ms-input-placeholder {
 .contact-desc ul li a{
 	width:35px;
 	height: 35px;
-	background-color:#666;
+	background-color:rgba(117,117,117,0.1);
 	margin-right: 4px;
 	float: left;
 	background-repeat: no-repeat;
@@ -647,7 +645,7 @@ li.linkedin a{
 }
 /**** Footer Section ****/
 .footer{
-	background-color: #383636;
+	background-color: #B62021;
 }
 #cp-text{
 	margin-top: 40px;
