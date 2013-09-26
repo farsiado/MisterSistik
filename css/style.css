@@ -97,7 +97,7 @@ ul{
 #head-sections .container{
     height: auto;
     margin: 0 auto;
-    padding: 17px 0;
+    padding: 13px 0;
     text-align: center;
 }
 .flexslider{
@@ -184,8 +184,8 @@ ul{
 	position: relative;
 	width: 100%;
 /* 	background-color: rgba(56,53,53,0.95); */
-  	background-color: #E3D8C5;
-    box-shadow: 0 1px 10px #9D9D9D;
+	background-color:#E3D8C5;
+	box-shadow: 0px 1px 10px #999;
 	-webkit-box-shadow: 0px 1px 10px #222;
 	-moz-box-shadow: 0px 1px 10px #222;
 	-o-box-shadow: 0px 1px 10px #222;
