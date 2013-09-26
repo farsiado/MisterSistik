@@ -230,10 +230,11 @@ ul{
 	text-align: center;
 }
 .services li{
-	float: left;
-	width:46%;
-	margin-right: 8%;
+/* 	float: left; */
+/* 	width:46%; */
+/* 	margin-right: 8%; */
 	margin-top: 50px;
+	text-align: center;
 }
 .right-side{
 	margin-right: 0 !important;
@@ -704,9 +705,9 @@ li.linkedin a{
 	}
 	
 	.services li {
-	    float: left;
+/* 	    float: left; */
 	    margin: 50px 25px 0;
-	    width: 40%;
+/* 	    width: 40%; */
 	}
 	
 	#services-desc {
@@ -731,6 +732,7 @@ li.linkedin a{
 .logo a{
 	text-align: center;
 }
+
 
 @media only screen and (max-width: 768px){
 	.flexslider {
@@ -774,10 +776,14 @@ li.linkedin a{
 	#tinynav1{
 		display: block;	
 	}
+	
+	#head-section .container {
+    	height: 337px;
+	}
 }
 @media only screen and (max-width: 700px){
 	.services li{
-		width: 70%;
+/* 		width: 70%; */
 		margin-right: 0;
 	}
 	.gallery-item{
@@ -802,12 +808,10 @@ li.linkedin a{
 	.news .container ul li{
 		width: 90%;
 	}
+	
+	
 }
 @media only screen and (max-width: 480px){
-	.services li{
-		width: 95%;
-		margin-right: 0;
-	}
 	ul#filterOptions{
 		width: 95%;
 	}
@@ -821,7 +825,9 @@ li.linkedin a{
 	}
 	
 	.services li {
-	    margin: 50px 15px 0;
+	    margin: 50px 10px 0;
+	    width: 95%;
+		margin-right: 0;
 	}
 	
 	#slide-1 a> img{
