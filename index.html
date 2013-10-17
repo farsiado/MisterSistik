@@ -20,7 +20,16 @@
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body id="home">
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=524563650920052";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 	<!-- head-section -->
+	
 	<div id="head-sections">
 		<div class="container">
 			<div class="logo">
@@ -216,15 +225,7 @@
 <!-- 				<div class="success"> -->
 <!-- 					  We'll answer you as soon as possible. -->
 <!-- 				</div> -->
-					<div id="fb-root"></div>
-					<script>(function(d, s, id) {
-					  var js, fjs = d.getElementsByTagName(s)[0];
-					  if (d.getElementById(id)) return;
-					  js = d.createElement(s); js.id = id;
-					  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=524563650920052";
-					  fjs.parentNode.insertBefore(js, fjs);
-					}(document, 'script', 'facebook-jssdk'));</script>
-					<div class="fb-like-box" data-href="http://www.facebook.com/mrsistik" data-width="The pixel width of the plugin" data-height="The pixel height of the plugin" data-colorscheme="dark" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
+				<div class="fb-like-box" data-href="http://www.facebook.com/mrsistik" data-width="The pixel width of the plugin" data-height="The pixel height of the plugin" data-colorscheme="dark" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
 		    </div>
 		    <div class="contact-form-holder">
 				<a class="twitter-timeline"  href="https://twitter.com/mistersistik"  data-widget-id="337779979460943873">Tweets by @mistersistik</a>
