@@ -730,6 +730,10 @@ li.linkedin a{
     transform:rotate(3deg);
 }
 
+.fb-like-box, .fb-like-box span, .fb-like-box iframe {
+    width: 100% !important;
+}
+
 /**** Media queries ****/
 @media only screen and (max-width: 940px) {
 	.container{
