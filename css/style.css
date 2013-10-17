@@ -490,9 +490,10 @@ ul#filterOptions li.active a { background: #ed0c4c;
 	color: #fff;
 }
 .contact-form-holder{
-	width:50%;
+	width:47%;
 	float: left;
 	margin-top: 50px;
+	margin-right:25px;
 	text-align: center;
 }
 .contact-desc h4{
