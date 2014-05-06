@@ -734,6 +734,17 @@ li.linkedin a{
     width: 100% !important;
 }
 
+.agen h3{
+	font-family: 'Lobster',cursive;
+	text-align: center;
+	color: #444444;
+}
+
+.agen{
+	margin-top: 70px;
+    padding-bottom: 115px;
+}
+
 /**** Media queries ****/
 @media only screen and (max-width: 940px) {
 	.container{
