@@ -227,7 +227,7 @@ ul {
 }
 
 #navigation ul {
-	width: 56%;
+	width: 68%;
 	margin: 0 auto;
 }
 
@@ -911,7 +911,7 @@ li.linkedin a {
 @media only screen and (max-width: 855px) {
 	#navigation ul {
 		margin: 0 auto;
-		width: 70%;
+		width: 85%;
 	}
 	.services li {
 		/* 	    float: left; */
