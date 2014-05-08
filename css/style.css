@@ -911,7 +911,7 @@ li.linkedin a {
 @media only screen and (max-width: 855px) {
 	#navigation ul {
 		margin: 0 auto;
-		width: 56%;
+		width: 70%;
 	}
 	.services li {
 		/* 	    float: left; */
@@ -1040,6 +1040,11 @@ li.linkedin a {
 	#head-section .container {
 		height: 150px;
 	}
+	
+	.contentAgen{
+	width: 100%;
+	float: left;
+}
 
 	/* 	#slide-2{ */
 	/* 		display: none !important; */
