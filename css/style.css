@@ -860,7 +860,7 @@ li.linkedin a {
 
 .agen {
 	margin-top: 70px;
-	padding-bottom: 115px;
+	padding-bottom: 80px;
 }
 
 .smallHr{
@@ -877,11 +877,16 @@ li.linkedin a {
 }
 
 .WrappAgen{
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 }
 
 .WrappAgen p{
 /* 	font-size: 13px; */
+}
+
+.contentAgen{
+	width: 50%;
+	float: left;
 }
 
 
